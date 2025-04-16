@@ -34,8 +34,8 @@ The model is designed to handle long-term musical structure by using relative at
 - pretty_midi
 - miditoolkit
 - tqdm
+- Transformers
 
-Install all dependencies with:
 
-```bash
-pip install -r requirements.txt
+
+
