@@ -3,14 +3,14 @@ from miditok import REMI, TokenizerConfig
 from symusic import Score
 
 
-midi_folder = "/Users/borandemir/Music/GarageBand/"
+midi_folder = "Your/PATH" # Make sure you paste your own PATH here
 
 
 config = TokenizerConfig()
 tokenizer = REMI(config)
 
 
-all_tokens = []
+all_tokens = [] # Paste your generated MIDI tokens here
 
 
 for filename in os.listdir(midi_folder):
