@@ -12,18 +12,18 @@ The model is designed to handle long-term musical structure by using relative at
 - Evaluation with MIDI playback and token-based metrics
 
 ## File Structure
-
+```
 .
-├── configs/               # YAML configuration files
-├── data/                  # Input MIDI files and tokenized sequences
-├── models/                # Model architecture and utilities
-├── preprocess/            # Tokenization and data preparation scripts
-├── checkpoints/           # Saved model checkpoints
-├── outputs/               # Generated MIDI outputs
-├── train.py               # Training script
-├── generate.py            # Inference script
+├── configs/               
+├── data/                  
+├── models/                
+├── preprocess/            
+├── checkpoints/           
+├── outputs/               
+├── train.py               
+├── generate.py            
 └── requirements.txt
-
+```
 
 
 ## Dependencies
