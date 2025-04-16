@@ -65,7 +65,7 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=dataset,
-    data_collator=data_collator,  # ✅ Make sure we add this now
+    data_collator=data_collator, #  Handle the batch creation process during training
 )
 
 # Model Training
