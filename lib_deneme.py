@@ -1,4 +1,4 @@
-# Make sure Libs are set correctly
+# Make sure PyTorch is set correctly
 
 import torch
 print(torch.backends.mps.is_available())
